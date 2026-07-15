@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Black Plague Studios</title>
+  <meta name="description" content="Get in touch with Black Plague Studios. Email us, use our contact form, or connect on Instagram and LinkedIn." />
+  <meta name="theme-color" content="#101012" />
+  <link rel="icon" type="image/jpeg" href="assets/Company Logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <div class="loader-inner">
+      <video class="loader-video" src="assets/company animated video.mp4" poster="assets/logo.png" autoplay muted playsinline aria-label="Black Plague Studios intro animation"></video>
+      <span class="loader-word">Loading</span>
+      <div class="loader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Black Plague Studios home">
+        <img class="brand-logo" src="assets/logo.png" alt="Black Plague Studios logo" />
+        <span class="brand-name">Black Plague <span>Studios</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="join-us.html">Join Us</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li class="nav-cta"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+        <h1>Say <span style="color:var(--yellow)">Hello</span></h1>
+        <p>
+          Working with us, joining us, or just curious? Drop us a line — we read everything.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="two-col">
+          <!-- Form -->
+          <div data-reveal>
+            <p class="eyebrow">Send a message</p>
+            <h2 class="section-title" style="font-size:clamp(1.8rem,4vw,2.6rem)">Fill it in, hit send.</h2>
+            <p class="lead" style="margin:1rem 0 1.6rem;font-size:1.05rem">
+              This form opens your email app with the message ready to go — no data is stored on our
+              side.
+            </p>
+            <form class="form-card" id="contactForm" novalidate>
+              <div class="field">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" autocomplete="name" placeholder="Jane Creative" required />
+              </div>
+              <div class="field">
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us what you have in mind…" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send message <span class="arrow">→</span></button>
+              <p id="formStatus" role="status" aria-live="polite" style="margin-top:1rem;font-size:.9rem;color:var(--muted)"></p>
+            </form>
+          </div>
+
+          <!-- Details + socials -->
+          <div data-reveal data-delay="1">
+            <p class="eyebrow">Reach us directly</p>
+            <h2 class="section-title" style="font-size:clamp(1.8rem,4vw,2.6rem)">Other ways to connect.</h2>
+            <div class="contact-list" style="margin-top:1.6rem">
+              <a href="mailto:blackplaguestudios3@gmail.com">
+                <span class="ci ci--mail" aria-hidden="true">@</span>
+                <span>
+                  <strong>Email</strong><br />
+                  <span style="color:var(--muted);font-weight:500">blackplaguestudios3@gmail.com</span>
+                </span>
+              </a>
+              <a href="https://www.instagram.com/blackplaguestudio_rsa/" target="_blank" rel="noopener">
+                <span class="ci ci--ig" aria-hidden="true">IG</span>
+                <span>
+                  <strong>Instagram</strong><br />
+                  <span style="color:var(--muted);font-weight:500">@blackplaguestudio_rsa</span>
+                </span>
+              </a>
+              <a href="https://www.linkedin.com/company/black-plague-studios/" target="_blank" rel="noopener">
+                <span class="ci ci--in" aria-hidden="true">in</span>
+                <span>
+                  <strong>LinkedIn</strong><br />
+                  <span style="color:var(--muted);font-weight:500">Black Plague Studios</span>
+                </span>
+              </a>
+            </div>
+
+            <div class="card" style="margin-top:1.6rem">
+              <h3 style="font-size:1.2rem">Company details</h3>
+              <p style="margin-top:.6rem">
+                Black Plague Studios (Pty) Ltd<br />
+                Registration No: 2025/201883/07<br />
+                Tax No: [Pending confirmation]<br />
+                100% Black Owned · Level 1 B-BBEE
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img class="footer-logo" src="assets/logo.png" alt="Black Plague Studios logo" />
+          <span class="brand-name">Black Plague <span>Studios</span></span>
+          <p>A South African creative studio combining animation, game design, and writing under one roof.</p>
+          <div class="footer-badges">
+            <span class="badge badge--g">100% Black Owned</span>
+            <span class="badge badge--y">Level 1 B-BBEE</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="join-us.html">Join Us</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="footer-social">
+            <a class="ig" href="https://www.instagram.com/blackplaguestudio_rsa/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+            <a class="in" href="https://www.linkedin.com/company/black-plague-studios/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+            <a class="mail" href="mailto:blackplaguestudios3@gmail.com" aria-label="Email">@</a>
+          </div>
+          <ul class="footer-links" style="margin-top:1rem">
+            <li><a href="mailto:blackplaguestudios3@gmail.com">blackplaguestudios3@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <div>
+          <div>© Black Plague Studios 2025 · Registration No: 2025/201883/07</div>
+          <div style="opacity:.7">Tax No: [Pending confirmation]</div>
+        </div>
+        <nav aria-label="Legal">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

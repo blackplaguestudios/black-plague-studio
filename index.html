@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Plague Studios — Games, Animation &amp; Words That Work</title>
+  <meta name="description" content="Black Plague Studios is a South African creative studio combining animation, game design, and writing under one roof. No gimmicks. Just work that works." />
+  <meta name="theme-color" content="#101012" />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Black Plague Studios" />
+  <meta property="og:description" content="No Gimmicks. Just Games, Animation, and Words That Work." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/Company Logo.jpg" />
+
+  <link rel="icon" type="image/jpeg" href="assets/Company Logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Loading screen (CSS logo animation placeholder for future video) ===== -->
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <div class="loader-inner">
+      <video class="loader-video" src="assets/company animated video.mp4" poster="assets/logo.png" autoplay muted playsinline aria-label="Black Plague Studios intro animation"></video>
+      <span class="loader-word">Loading</span>
+      <div class="loader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Black Plague Studios home">
+        <img class="brand-logo" src="assets/logo.png" alt="Black Plague Studios logo" />
+        <span class="brand-name">Black Plague <span>Studios</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="join-us.html">Join Us</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li class="nav-cta"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <h1>
+              <span class="hl-red">Games.</span>
+              <span class="hl-yellow">Animation.</span>
+              <span class="hl-green">Words.</span>
+              Under one roof.
+            </h1>
+            <p class="hero-tagline">No Gimmicks. Just Games, Animation, and Words That Work.</p>
+            <p class="hero-intro">
+              We're a South African creative studio built by young creatives who got tired of
+              watching animation, game design, and storytelling live in separate boxes. So we
+              knocked down the walls — and built one studio where they feed off each other.
+            </p>
+            <div class="btn-row">
+              <a class="btn" href="projects.html">See our work <span class="arrow">→</span></a>
+              <a class="btn btn--ghost" href="join-us.html"><span>Join us</span></a>
+            </div>
+          </div>
+          <div class="hero-logo-wrap">
+            <img class="hero-logo" src="assets/logo.png" alt="Black Plague Studios plague-cell logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Marquee strip ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Animation • Game Design • Writing • Interactivity • Proudly South African •&nbsp;</span>
+        <span>Animation • Game Design • Writing • Interactivity • Proudly South African •&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ===== Intro / positioning ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="two-col">
+          <div data-reveal>
+            <p class="eyebrow">Who we are</p>
+            <h2 class="section-title">Three crafts. One creative engine.</h2>
+          </div>
+          <div data-reveal data-delay="1">
+            <p class="lead">
+              Black Plague Studios (Pty) Ltd combines animation, game design, and writing to deliver
+              cohesive digital content — the kind that only happens when the people telling the
+              story, building the world, and animating the moment are all in the same room.
+            </p>
+            <div class="btn-row" style="margin-top:1.5rem">
+              <a class="btn btn--green" href="about.html">Our story <span class="arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Teasers: About / Projects / Join ===== -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="teasers">
+          <a class="teaser teaser--red" href="about.html" data-reveal>
+            <span class="teaser-index">01</span>
+            <h3>About</h3>
+            <p>Late-night ideas turned into a studio with a culture — fair pay, real credit, room to shine.</p>
+            <span class="card-link">Read our story <span class="arrow">→</span></span>
+          </a>
+          <a class="teaser teaser--green" href="projects.html" data-reveal data-delay="1">
+            <span class="teaser-index">02</span>
+            <h3>Projects</h3>
+            <p>Games, animation and interactive writing — explore what we're building right now.</p>
+            <span class="card-link">View portfolio <span class="arrow">→</span></span>
+          </a>
+          <a class="teaser teaser--yellow" href="join-us.html" data-reveal data-delay="2">
+            <span class="teaser-index">03</span>
+            <h3>Join Us</h3>
+            <p>Paid, project-based work for students and early-career creatives. Yes — actually paid.</p>
+            <span class="card-link">Get involved <span class="arrow">→</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Why Black Plague Studios ===== -->
+    <section class="section section--dark">
+      <div class="container">
+        <div style="max-width:60ch" data-reveal>
+          <p class="eyebrow">Why Black Plague Studios</p>
+          <h2 class="section-title">Because siloed creativity leaves the best ideas on the table.</h2>
+          <p class="lead" style="margin-top:1.2rem">
+            Most studios do one thing. We do three — on purpose. When animation, game design and
+            writing share a roof, worlds get deeper, stories get sharper, and games actually feel
+            like something.
+          </p>
+        </div>
+
+        <div class="grid grid-3" style="margin-top:3rem">
+          <div class="feature" data-reveal>
+            <span class="feature-icon" style="background:var(--red)">🎮</span>
+            <h3>Game Design</h3>
+            <p>Playable worlds with heart — from African-inspired platformers to arcade chaos rooted in everyday SA life.</p>
+          </div>
+          <div class="feature" data-reveal data-delay="1">
+            <span class="feature-icon" style="background:var(--green)">🎬</span>
+            <h3>Animation</h3>
+            <p>Character-driven 2D motion and experimental shorts that give our stories a face and a pulse.</p>
+          </div>
+          <div class="feature" data-reveal data-delay="2">
+            <span class="feature-icon" style="background:var(--yellow);color:var(--black)">✍️</span>
+            <h3>Writing &amp; Interactivity</h3>
+            <p>Branching narratives, micro-fiction and scripts — words engineered to actually work.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Stats band ===== -->
+    <section class="section section--ink" style="padding-block:clamp(2.5rem,5vw,3.5rem)">
+      <div class="container">
+        <div class="stats">
+          <div class="stat" data-reveal>
+            <div class="stat-num">3</div>
+            <div class="stat-label">Creative disciplines</div>
+          </div>
+          <div class="stat" data-reveal data-delay="1">
+            <div class="stat-num">1</div>
+            <div class="stat-label">Studio, one roof</div>
+          </div>
+          <div class="stat" data-reveal data-delay="2">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Black owned</div>
+          </div>
+          <div class="stat" data-reveal data-delay="3">
+            <div class="stat-num">Lvl 1</div>
+            <div class="stat-label">B-BBEE</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <h2>Got a project or a spark of talent?</h2>
+          <p>Whether you want to work with us or work for us, we'd love to hear from you.</p>
+          <div class="btn-row" style="justify-content:center">
+            <a class="btn btn--yellow" href="contact.html">Get in touch <span class="arrow">→</span></a>
+            <a class="btn btn--ghost" href="join-us.html" style="border-color:#fff"><span style="color:#fff">Join the studio</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer (shared) ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img class="footer-logo" src="assets/logo.png" alt="Black Plague Studios logo" />
+          <span class="brand-name">Black Plague <span>Studios</span></span>
+          <p>A South African creative studio combining animation, game design, and writing under one roof.</p>
+          <div class="footer-badges">
+            <span class="badge badge--g">100% Black Owned</span>
+            <span class="badge badge--y">Level 1 B-BBEE</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="join-us.html">Join Us</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="footer-social">
+            <a class="ig" href="https://www.instagram.com/blackplaguestudio_rsa/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+            <a class="in" href="https://www.linkedin.com/company/black-plague-studios/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+            <a class="mail" href="mailto:blackplaguestudios3@gmail.com" aria-label="Email">@</a>
+          </div>
+          <ul class="footer-links" style="margin-top:1rem">
+            <li><a href="mailto:blackplaguestudios3@gmail.com">blackplaguestudios3@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-legal">
+        <div>
+          <div>© Black Plague Studios 2025 · Registration No: 2025/201883/07</div>
+          <div style="opacity:.7">Tax No: [Pending confirmation]</div>
+        </div>
+        <nav aria-label="Legal">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Black Plague Studios</title>
+  <meta name="description" content="Explore Black Plague Studios' portfolio across games, animation, and interactive writing — including Project Ubuntu, Bus Game, and more." />
+  <meta name="theme-color" content="#101012" />
+  <link rel="icon" type="image/jpeg" href="assets/Company Logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <div class="loader-inner">
+      <video class="loader-video" src="assets/company animated video.mp4" poster="assets/logo.png" autoplay muted playsinline aria-label="Black Plague Studios intro animation"></video>
+      <span class="loader-word">Loading</span>
+      <div class="loader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Black Plague Studios home">
+        <img class="brand-logo" src="assets/logo.png" alt="Black Plague Studios logo" />
+        <span class="brand-name">Black Plague <span>Studios</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="join-us.html">Join Us</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li class="nav-cta"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Home</a> / Projects</p>
+        <h1>The <span style="color:var(--yellow)">Work</span></h1>
+        <p>
+          Three mediums, one studio. Jump between our games, animation, and interactive writing —
+          each built with its own energy.
+        </p>
+        <div class="btn-row" style="margin-top:1.6rem">
+          <a class="btn btn--green" href="#games">Games</a>
+          <a class="btn btn--ghost" href="#animation" style="border-color:#fff"><span style="color:#fff">Animation</span></a>
+          <a class="btn btn--ghost" href="#writing" style="border-color:#fff"><span style="color:#fff">Writing</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GAMES (game-UI / HUD feel) ===================== -->
+    <section class="medium-band medium-games" id="games">
+      <div class="container">
+        <div class="medium-head">
+          <div data-reveal>
+            <p class="eyebrow">Section 01 — Playable</p>
+            <h2 class="section-title" style="color:var(--paper)">Games</h2>
+            <p class="lead" style="margin-top:1rem;color:rgba(246,243,236,.72);max-width:52ch">
+              Worlds you can walk into. From African-inspired adventure to homegrown arcade chaos.
+            </p>
+          </div>
+          <span class="medium-index" aria-hidden="true">01</span>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-reveal>
+            <div class="project-thumb">
+              <span class="hud-corner tl" aria-hidden="true"></span>
+              <span class="hud-corner br" aria-hidden="true"></span>
+              <div class="project-placeholder">PROJECT<br />UBUNTU</div>
+            </div>
+            <div class="project-body">
+              <span class="status-tag">Pre-Alpha</span>
+              <h3>Project Ubuntu</h3>
+              <p>
+                An African-inspired adventure platformer exploring themes of culture, unity, and
+                survival. Originally developed as a university capstone project, now evolving into a
+                community-driven experience.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal data-delay="1">
+            <div class="project-thumb">
+              <span class="hud-corner tl" aria-hidden="true"></span>
+              <span class="hud-corner br" aria-hidden="true"></span>
+              <div class="project-placeholder">BUS<br />GAME</div>
+            </div>
+            <div class="project-body">
+              <span class="status-tag alt">In Concept</span>
+              <h3>Bus Game</h3>
+              <p>
+                A locally-themed arcade-style game focused on the day-to-day chaos and humor of South
+                African public transport.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ANIMATION (cinematic / letterbox feel) ===================== -->
+    <section class="medium-band medium-anim" id="animation">
+      <div class="container">
+        <div class="medium-head">
+          <div data-reveal>
+            <p class="eyebrow">Section 02 — In Motion</p>
+            <h2 class="section-title" style="color:var(--paper)">Animation</h2>
+            <p class="lead" style="margin-top:1rem;color:rgba(246,243,236,.72);max-width:52ch">
+              Character-driven 2D and experimental motion — our stories, given a pulse.
+            </p>
+          </div>
+          <span class="medium-index" aria-hidden="true">02</span>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-reveal>
+            <div class="project-thumb">
+              <div class="play-badge" aria-hidden="true">▶</div>
+            </div>
+            <div class="project-body">
+              <span class="status-tag">In Progress</span>
+              <h3>Unathi's Animation Project</h3>
+              <p>
+                An original 2D short film showcasing character animation and experimental motion —
+                a personal piece pushing our craft.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal data-delay="1" style="display:flex;align-items:center;justify-content:center;border-style:dashed;">
+            <div class="project-body" style="text-align:center">
+              <h3 style="color:var(--red)">More coming soon</h3>
+              <p>Our animation slate is growing. Watch this space for new shorts and motion work.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WRITING (literary / interactive-fiction feel) ===================== -->
+    <section class="medium-band medium-writing" id="writing">
+      <div class="container">
+        <div class="medium-head">
+          <div data-reveal>
+            <p class="eyebrow" style="color:var(--red)">Section 03 — In Words</p>
+            <h2 class="section-title">Writing &amp; Interactivity</h2>
+            <p class="lead" style="margin-top:1rem;max-width:52ch">
+              Branching narratives, micro-fiction, and interactive scripts — stories that respond
+              to the reader.
+            </p>
+          </div>
+          <span class="medium-index" aria-hidden="true">03</span>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-reveal>
+            <div class="project-thumb">
+              <div class="project-placeholder">&ldquo;Every choice<br />opens a door…&rdquo;</div>
+            </div>
+            <div class="project-body">
+              <span class="status-tag">In Progress</span>
+              <h3>Interactive Writing Portfolio</h3>
+              <p>
+                Anele's dynamic showcase of branching narratives, micro-fiction, and interactive
+                scripts — where the reader helps steer the story.
+              </p>
+              <div class="branch" aria-hidden="true">
+                <a href="#writing">→ Take the left path</a>
+                <a href="#writing">→ Read on</a>
+                <a href="#writing">→ Start over</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal data-delay="1" style="display:flex;align-items:center;justify-content:center;">
+            <div class="project-body" style="text-align:center">
+              <h3 style="font-family:Georgia,serif;text-transform:none">A new chapter is being written</h3>
+              <p style="font-family:Georgia,serif;font-style:italic">More interactive pieces are on the way.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <h2>Want to build the next one with us?</h2>
+          <p>We collaborate with students and early-career creatives on real, credited, paid projects.</p>
+          <div class="btn-row" style="justify-content:center">
+            <a class="btn btn--yellow" href="join-us.html">Join us <span class="arrow">→</span></a>
+            <a class="btn btn--ghost" href="contact.html" style="border-color:#fff"><span style="color:#fff">Contact</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img class="footer-logo" src="assets/logo.png" alt="Black Plague Studios logo" />
+          <span class="brand-name">Black Plague <span>Studios</span></span>
+          <p>A South African creative studio combining animation, game design, and writing under one roof.</p>
+          <div class="footer-badges">
+            <span class="badge badge--g">100% Black Owned</span>
+            <span class="badge badge--y">Level 1 B-BBEE</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="join-us.html">Join Us</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="footer-social">
+            <a class="ig" href="https://www.instagram.com/blackplaguestudio_rsa/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+            <a class="in" href="https://www.linkedin.com/company/black-plague-studios/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+            <a class="mail" href="mailto:blackplaguestudios3@gmail.com" aria-label="Email">@</a>
+          </div>
+          <ul class="footer-links" style="margin-top:1rem">
+            <li><a href="mailto:blackplaguestudios3@gmail.com">blackplaguestudios3@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <div>
+          <div>© Black Plague Studios 2025 · Registration No: 2025/201883/07</div>
+          <div style="opacity:.7">Tax No: [Pending confirmation]</div>
+        </div>
+        <nav aria-label="Legal">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
